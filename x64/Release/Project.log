@@ -1,0 +1,27 @@
+﻿  Camera.cpp
+  Shader.cpp
+  main.cpp
+C:\Users\Alex\source\repos\Project\Project\main.cpp(80,20): error C2374: 'SHADOW_WIDTH': redefinition; multiple initialization
+  C:\Users\Alex\source\repos\Project\Project\main.cpp(35,20):
+  see declaration of 'SHADOW_WIDTH'
+  
+C:\Users\Alex\source\repos\Project\Project\main.cpp(81,20): error C2374: 'SHADOW_HEIGHT': redefinition; multiple initialization
+  C:\Users\Alex\source\repos\Project\Project\main.cpp(36,20):
+  see declaration of 'SHADOW_HEIGHT'
+  
+C:\Users\Alex\source\repos\Project\Project\main.cpp(101,15): error C2065: 'glWindowWidth': undeclared identifier
+C:\Users\Alex\source\repos\Project\Project\main.cpp(102,15): error C2065: 'glWindowHeight': undeclared identifier
+C:\Users\Alex\source\repos\Project\Project\main.cpp(112,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex\source\repos\Project\Project\main.cpp(113,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex\source\repos\Project\Project\main.cpp(116,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex\source\repos\Project\Project\main.cpp(117,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex\source\repos\Project\Project\main.cpp(119,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex\source\repos\Project\Project\main.cpp(120,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex\source\repos\Project\Project\main.cpp(158,2): error C2065: 'glWindowWidth': undeclared identifier
+C:\Users\Alex\source\repos\Project\Project\main.cpp(159,2): error C2065: 'glWindowHeight': undeclared identifier
+C:\Users\Alex\source\repos\Project\Project\main.cpp(165,29): error C2065: 'glWindowWidth': undeclared identifier
+C:\Users\Alex\source\repos\Project\Project\main.cpp(165,52): error C2065: 'glWindowHeight': undeclared identifier
+C:\Users\Alex\source\repos\Project\Project\main.cpp(308,31): error C2065: 'glWindowWidth': undeclared identifier
+C:\Users\Alex\source\repos\Project\Project\main.cpp(308,47): error C2065: 'glWindowHeight': undeclared identifier
+C:\Users\Alex\source\repos\Project\Project\main.cpp(366,29): error C2065: 'glWindowWidth': undeclared identifier
+C:\Users\Alex\source\repos\Project\Project\main.cpp(366,52): error C2065: 'glWindowHeight': undeclared identifier

@@ -1,0 +1,46 @@
+﻿  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'main.cpp')
+  C:\Users\Alex\Desktop\OpenGL dev libs\include\GLFW\glfw3.h(123,1):
+  see previous definition of 'APIENTRY'
+  
+C:\Users\Alex\source\repos\Project\Project\main.cpp(26,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Alex\source\repos\Project\Project\main.cpp(27,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Alex\source\repos\Project\Project\main.cpp(940,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex\source\repos\Project\Project\main.cpp(946,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+glfw3.lib(init.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(init.obj)' or at ''; linking object as if no debug info
+glfw3.lib(window.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(window.obj)' or at ''; linking object as if no debug info
+glfw3.lib(input.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(input.obj)' or at ''; linking object as if no debug info
+glfw3.lib(context.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(context.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_time.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_time.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_thread.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_thread.obj)' or at ''; linking object as if no debug info
+glfw3.lib(platform.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(platform.obj)' or at ''; linking object as if no debug info
+glfw3.lib(monitor.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(monitor.obj)' or at ''; linking object as if no debug info
+glfw3.lib(vulkan.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(vulkan.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_init.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_init.obj)' or at ''; linking object as if no debug info
+glfw3.lib(null_init.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(null_init.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_module.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_module.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_monitor.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_window.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_window.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_joystick.obj)' or at ''; linking object as if no debug info
+glfw3.lib(wgl_context.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(wgl_context.obj)' or at ''; linking object as if no debug info
+glfw3.lib(egl_context.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(egl_context.obj)' or at ''; linking object as if no debug info
+glfw3.lib(osmesa_context.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(osmesa_context.obj)' or at ''; linking object as if no debug info
+glfw3.lib(null_monitor.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(null_monitor.obj)' or at ''; linking object as if no debug info
+glfw3.lib(null_window.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(null_window.obj)' or at ''; linking object as if no debug info
+glfw3.lib(null_joystick.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(null_joystick.obj)' or at ''; linking object as if no debug info
+libglew32d.lib(glew.obj) : warning LNK4099: PDB '' was not found with 'libglew32d.lib(glew.obj)' or at ''; linking object as if no debug info
+LINK : warning LNK4217: symbol '__glewBindBuffer' defined in 'libglew32d.lib(glew.obj)' is imported by 'Rain.obj' in function '"public: void __cdecl RainSystem::init(void)" (?init@RainSystem@@QEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewBufferData' defined in 'libglew32d.lib(glew.obj)' is imported by 'Rain.obj' in function '"public: void __cdecl RainSystem::init(void)" (?init@RainSystem@@QEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewBufferSubData' defined in 'libglew32d.lib(glew.obj)' is imported by 'Rain.obj' in function '"public: void __cdecl RainSystem::uploadToGPU(void)" (?uploadToGPU@RainSystem@@QEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewDeleteBuffers' defined in 'libglew32d.lib(glew.obj)' is imported by 'Rain.obj' in function '"public: void __cdecl RainSystem::destroy(void)" (?destroy@RainSystem@@QEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewGenBuffers' defined in 'libglew32d.lib(glew.obj)' is imported by 'Rain.obj' in function '"public: void __cdecl RainSystem::init(void)" (?init@RainSystem@@QEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewEnableVertexAttribArray' defined in 'libglew32d.lib(glew.obj)' is imported by 'Rain.obj' in function '"public: void __cdecl RainSystem::init(void)" (?init@RainSystem@@QEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewGetUniformLocation' defined in 'libglew32d.lib(glew.obj)' is imported by 'Rain.obj' in function '"public: void __cdecl RainSystem::draw(struct glm::mat<4,4,float,0> const &,struct glm::mat<4,4,float,0> const &)" (?draw@RainSystem@@QEAAXAEBU?$mat@$03$03M$0A@@glm@@0@Z)'
+LINK : warning LNK4217: symbol '__glewUniform3f' defined in 'libglew32d.lib(glew.obj)' is imported by 'Rain.obj' in function '"public: void __cdecl RainSystem::draw(struct glm::mat<4,4,float,0> const &,struct glm::mat<4,4,float,0> const &)" (?draw@RainSystem@@QEAAXAEBU?$mat@$03$03M$0A@@glm@@0@Z)'
+LINK : warning LNK4217: symbol '__glewUniformMatrix4fv' defined in 'libglew32d.lib(glew.obj)' is imported by 'Rain.obj' in function '"public: void __cdecl RainSystem::draw(struct glm::mat<4,4,float,0> const &,struct glm::mat<4,4,float,0> const &)" (?draw@RainSystem@@QEAAXAEBU?$mat@$03$03M$0A@@glm@@0@Z)'
+LINK : warning LNK4217: symbol '__glewVertexAttribPointer' defined in 'libglew32d.lib(glew.obj)' is imported by 'Rain.obj' in function '"public: void __cdecl RainSystem::init(void)" (?init@RainSystem@@QEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewBindVertexArray' defined in 'libglew32d.lib(glew.obj)' is imported by 'Rain.obj' in function '"public: void __cdecl RainSystem::draw(struct glm::mat<4,4,float,0> const &,struct glm::mat<4,4,float,0> const &)" (?draw@RainSystem@@QEAAXAEBU?$mat@$03$03M$0A@@glm@@0@Z)'
+LINK : warning LNK4217: symbol '__glewDeleteVertexArrays' defined in 'libglew32d.lib(glew.obj)' is imported by 'Rain.obj' in function '"public: void __cdecl RainSystem::destroy(void)" (?destroy@RainSystem@@QEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewGenVertexArrays' defined in 'libglew32d.lib(glew.obj)' is imported by 'Rain.obj' in function '"public: void __cdecl RainSystem::init(void)" (?init@RainSystem@@QEAAXXZ)'
+  Project.vcxproj -> C:\Users\Alex\source\repos\Project\x64\Debug\Project.exe
